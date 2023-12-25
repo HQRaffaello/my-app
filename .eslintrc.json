@@ -22,7 +22,16 @@
 		"react/prop-types": 0,
 		"react/destructuring-assignment": [0]
 	},
+	"eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+	"eslint.workingDirectories": [
+		"./backend", 
+		"./frontend"
+	],
   	"eslint.nodePath": "/Users/<USERNAME>/.nvm/versions/node/v14.15.5/lib",
+	  "eslint.validate": [
+		{ "language": "javascript", "autoFix": true },
+		{ "language": "typescript", "autoFix": true }
+	  ],
  	"eslint.options": {
     "overrideConfigFile": "/Users/<USERNAME>/.eslintrc"
   	}
